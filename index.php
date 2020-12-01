@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -12,12 +15,15 @@
             <div class="title-login">
                 <h3>Login</h3>
             </div>
-            <form action="./index.html">
+            <form method="POST" action="./_php/login.php">
                 <div class="div-input">
-                    <input type="text" placeholder="Usuário">
+                    <input type="text" name="usuario" placeholder="Usuário">
                 </div>
                 <div class="div-input">
-                    <input type="password" placeholder="Senha">
+                    <input type="password" name="senha" placeholder="Senha">
+                </div>
+                <div class="div-input submit">
+                    <input type="submit" value="Entrar">
                 </div>
             </form>
         </div>

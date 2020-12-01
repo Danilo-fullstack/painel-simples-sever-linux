@@ -45,3 +45,14 @@ section {
     color: #141c25;
     font-weight: 500;
 }
+.div-input.submit {
+    /* background-color: #222831; */
+    background-color: #393e46;
+    cursor: pointer;
+}
+.div-input.submit input {
+    color: rgb(255, 255, 255);
+    font-size: clamp(8pt, 1.2vw, 13pt);
+    font-weight: 600;
+    cursor: pointer;
+}
