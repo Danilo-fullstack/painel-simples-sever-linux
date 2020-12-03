@@ -56,3 +56,18 @@ section {
     font-weight: 600;
     cursor: pointer;
 }
+.box-login .erro-login {
+    color: #fc1f1f;
+    font-size: 11pt;
+    font-weight: 600;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: clamp(8pt, 1.2vw, 13pt);
+    text-align: center;
+}
+.box-login .erro-login i {
+    padding-right: 3px;
+    font-size: clamp(8pt, 1.2vw, 13pt);
+}

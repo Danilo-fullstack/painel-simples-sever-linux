@@ -7,7 +7,8 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./_css/login.css">
-    <title>Painel</title>
+    <script src="https://kit.fontawesome.com/7d2e722761.js" crossorigin="anonymous"></script>
+    <title>Login</title>
 </head>
 <body>
     <section>
@@ -25,6 +26,17 @@ session_start();
                 <div class="div-input submit">
                     <input type="submit" value="Entrar">
                 </div>
+                <?php
+                if(isset($_SESSION['nao_autenticado'])):
+                ?>
+                <div class="erro-login">
+                    <i class="fas fa-times-circle"></i>
+                    <p> Usuário ou senha incorreto, tente novamente.</p>
+                </div>
+                <?php
+                endif;
+                unset($_SESSION['nao_autenticado']);
+                ?>
             </form>
         </div>
     </section>

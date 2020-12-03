@@ -1,0 +1,2 @@
+-Comando para verificar vencimento do user
+    chage -l danilo.dev
