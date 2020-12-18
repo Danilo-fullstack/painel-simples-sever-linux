@@ -13,7 +13,7 @@ include('./_php/comando.php');
     <title>Painel</title>
 </head>
 <body>
-    <form action="" method="post">
+    <form action="./_php/comando.php" method="post">
         <input type="text" name="comando">
         <input type="submit" value="enviar">
     </form>
