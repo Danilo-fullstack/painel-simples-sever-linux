@@ -9,13 +9,13 @@
 // $connection = ssh2_connect($ip, $port);
 // ssh2_auth_password($connection, $user, $pass);
 
-// $script = isset($_POST['comando']) ? $_POST['comando'] : '';
+echo ($_POST[comando]);
+if(empty($_POST[comando])) {
+    echo ('<strong><p>Campo INPUT vazio</p></strong>');
+    exit();
+}
+$script = isset($_POST['comando']) ? $_POST['comando'] : '';
 
-// ssh2_exec($connection, $script);
-
-// shell_exec('chage -l danilo.dev');
-// $comando = shell_exec('ls');
-
-$output = shell_exec('ls');
-echo "<p>$output</p>";
+$output = shell_exec($script);
+echo "<p style='color: red;'>$output</p>";
 ?>
