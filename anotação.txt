@@ -1,2 +1,9 @@
 -Comando para verificar vencimento do user
     chage -l danilo.dev
+
+-Comando para verificar vencimento do user
+    grep "danilo.dev" /etc/shadow | cut -d: -f8
+
+-Referências:
+    https://ricardo-reis.medium.com/gerenciamento-de-usu%C3%A1rios-e-grupos-no-linux-ef0c6cb95880
+    Gerenciamento de Usuários

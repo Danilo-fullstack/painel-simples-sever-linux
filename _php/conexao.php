@@ -1,6 +1,6 @@
 <?php
 define('host', '127.0.0.1');
-define('usuario', 'danilo');
+define('usuario', 'phpmyadmin');
 define('senha', 'toor#');
 define('db', 'login');
 

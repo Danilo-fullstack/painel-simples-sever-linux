@@ -12,6 +12,7 @@
 echo ($_POST[comando]);
 if(empty($_POST[comando])) {
     echo ('<strong><p>Campo INPUT vazio</p></strong>');
+    header('Location: ../painel.php');
     exit();
 }
 $script = isset($_POST['comando']) ? $_POST['comando'] : '';
