@@ -7,3 +7,6 @@
 -Referências:
     https://ricardo-reis.medium.com/gerenciamento-de-usu%C3%A1rios-e-grupos-no-linux-ef0c6cb95880
     Gerenciamento de Usuários
+
+    http://www.templatemonsterpreview.com/pt-br/demo/68899.html?_gl=1*1o5n060*_ga*MTY2MDU4NTc2OS4xNjA4ODI0NzQ3*_ga_FTPYEGT5LY*MTYwODgyNDc0NS4xLjEuMTYwODgyNDg1Mi42MA..&_ga=2.193718510.218546204.1608824747-1660585769.1608824747
+    Template de Referência
